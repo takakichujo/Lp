@@ -10,7 +10,9 @@ export default {
       width: {
         60: '60px',
         220: '220px',
+        150: '150px',
         250: '250px',
+        280: '280px',
         90: '90px',
         1500: '2500px',
         1000: '1000px',
@@ -28,6 +30,10 @@ export default {
       },
       colors: {
         offwhite: '#f8f8f8',
+        deepPink: '#ff1493',
+      },
+      borderRadius: {
+        40: '40px',
       },
     },
   },
