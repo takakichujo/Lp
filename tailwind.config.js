@@ -1,12 +1,19 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ['./index.html', './src/**/*.{js,jsx,ts,tsx}'],
+  content: [
+    './index.html',
+    './src/**/*.{js,jsx,ts,tsx}',
+    './src/styles/tailwind.css',
+  ],
   theme: {
     extend: {
       width: {
         60: '60px',
         220: '220px',
+        250: '250px',
         90: '90px',
+        1500: '2500px',
+        1000: '1000px',
       },
       height: {
         60: '60px',
