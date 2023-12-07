@@ -7,3 +7,7 @@ export type ContentInfo = {
   contentSentence: string;
   className?: string;
 };
+
+export type ExplainContentInfo = {
+  content: string;
+};
