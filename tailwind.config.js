@@ -13,6 +13,7 @@ export default {
         150: '150px',
         250: '220px',
         280: '280px',
+        415: '415px',
         90: '90px',
         480: '480px',
         1500: '2500px',
@@ -23,6 +24,7 @@ export default {
         400: '400px',
         100: '100px',
         230: '230px',
+        320: '320px',
       },
       margin: {
         10: '10px',
@@ -47,6 +49,10 @@ export default {
       },
       borderWidth: {
         10: '30px',
+      },
+      padding: {
+        25: '25px',
+        50: '50px',
       },
     },
   },
