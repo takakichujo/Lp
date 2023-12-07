@@ -11,7 +11,7 @@ export default {
         60: '60px',
         220: '220px',
         150: '150px',
-        250: '250px',
+        250: '220px',
         280: '280px',
         90: '90px',
         1500: '2500px',
@@ -20,6 +20,7 @@ export default {
       height: {
         60: '60px',
         400: '400px',
+        100: '100px',
         230: '230px',
       },
       margin: {
@@ -34,6 +35,14 @@ export default {
       },
       borderRadius: {
         40: '40px',
+      },
+      fontSize: {
+        30: '30px',
+        40: '40px',
+        50: '50px',
+      },
+      borderWidth: {
+        10: '30px',
       },
     },
   },
