@@ -23,6 +23,7 @@ export default {
         986: '986px',
         1500: '2500px',
         1000: '1000px',
+        1021: '1021px',
       },
       height: {
         60: '60px',
@@ -40,6 +41,7 @@ export default {
         50: '50px',
         80: '80px',
         150: '150px',
+        376: '376px',
       },
       colors: {
         offwhite: '#f8f8f8',
