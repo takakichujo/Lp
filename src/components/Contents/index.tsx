@@ -4,12 +4,13 @@ import { ContentInfo } from '../../types';
 
 type Props = {
   contentsInfoArray: ContentInfo[];
+  className?: string;
 };
 
-export const Contents: FC<Props> = ({ contentsInfoArray }) => {
+export const Contents: FC<Props> = ({ contentsInfoArray, className }) => {
   return (
-    <div className='pl-10 pr-5 w-1000 bg-white'>
-      <h2 className='text-lg text-center font-bold mt-20'>使用步驟</h2>
+    <div className={`bg-white ml-2 mr-2 ${className}`}>
+      <h2 className='text-lg text-center font-bold pt-25'>使用步驟</h2>
       <div className='flex overflow-scroll w-full'>
         {contentsInfoArray.map((contentInfoArray) => (
           <Content

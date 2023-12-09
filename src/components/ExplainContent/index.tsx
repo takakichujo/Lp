@@ -15,13 +15,13 @@ export const ExplainContent: FC<Props> = ({
   anotation,
 }) => {
   return (
-    <div className='pr-10 pb-3 pl-10 pt-6 w-480 text-center'>
+    <div className='pr-10 pb-3 pl-10 pt-6 bg-white w-480 text-center'>
       <h2 className='text-23 pb-6'>
         {title}
         <span className='text-18'>{span}</span>
       </h2>
 
-      <ul>
+      <ul className=''>
         {info.map((item) => {
           return (
             <li className='text-10' key={item.content}>

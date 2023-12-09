@@ -7,6 +7,9 @@ export default {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        bgBlue: "url('../src/img/backgroundBlue.jpeg')",
+      },
       width: {
         60: '60px',
         220: '220px',
@@ -16,6 +19,8 @@ export default {
         415: '415px',
         90: '90px',
         480: '480px',
+        980: '980px',
+        986: '986px',
         1500: '2500px',
         1000: '1000px',
       },
@@ -25,12 +30,16 @@ export default {
         100: '100px',
         230: '230px',
         320: '320px',
+        1160: '1160px',
       },
       margin: {
         10: '10px',
         20: '20px',
+        30: '30px',
         40: '40px',
+        50: '50px',
         80: '80px',
+        150: '150px',
       },
       colors: {
         offwhite: '#f8f8f8',

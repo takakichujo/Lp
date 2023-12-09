@@ -9,8 +9,8 @@ export const Content: FC<ContentInfo> = ({
   contentSentence,
 }) => {
   return (
-    <div className='w-250 m-20'>
-      <div className='w-220 h-400 mt-40 mb-20 ml-20 flex flex-col items-center bg-offwhite p-3 relative flex-shrink-0'>
+    <div className='w-250 m-20 h-400'>
+      <div className='w-220  mt-40 mb-20 ml-20 flex flex-col items-center bg-offwhite p-3 relative flex-shrink-0'>
         <div className='w-60 h-60 bg-blue-500 rounded-full absolute -top-10 -left-10'>
           <p className='text-white text-xs pt-2 text-center'>
             {circleTopName}
