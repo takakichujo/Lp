@@ -21,6 +21,7 @@ export const Contents: FC<Props> = ({ contentsInfoArray, className }) => {
             img={contentInfoArray.img}
             contentTitle={contentInfoArray.contentTitle}
             contentSentence={contentInfoArray.contentSentence}
+            className={contentInfoArray.className}
           />
         ))}
       </div>
