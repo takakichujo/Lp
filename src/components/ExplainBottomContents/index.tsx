@@ -2,11 +2,17 @@ import { FC } from 'react';
 import { ExplainContentsBottomInfo } from '../../lib/const/ExplainContentsBottomInfo';
 import { ExplainContent } from '../ExplainContent';
 import { Baloon } from '../Baloon';
-export const ExplainBottomContentsDetail: FC = () => {
+type Props = {
+  className?: string;
+};
+export const ExplainBottomContentsDetail: FC<Props> = ({ className }) => {
   return (
-    <div className='flex mb-40 pt-50 pl-25'>
-      <div className='relative'>
-        <img src='../../src/img/fancl_bottom.jpeg' className='w-415 h-320 ' />
+    <div className={`flex pt-50 pl-25 ${className}`}>
+      <div className='relative h-400'>
+        <img
+          src='../../src/img/fancl_bottom.jpeg'
+          className='w-415 h-400 bg-cover bg-center'
+        />
         <Baloon className='absolute -top-80 left-4' />
       </div>
       <ExplainContent
