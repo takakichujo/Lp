@@ -4,7 +4,7 @@ import { Top } from '../Top';
 import { Bottom } from '../Bottom';
 export const Campain: FC = () => {
   return (
-    <div className='mx-auto'>
+    <div className='lg:mx-auto lg:w-1140 w-full'>
       <TopImage img='../src/img/fancl_top.webp' />
       <Top />
       <Bottom />

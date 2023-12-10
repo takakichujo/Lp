@@ -5,7 +5,10 @@ type Props = {
 export const TopImage: FC<Props> = ({ img }) => {
   return (
     <h1>
-      <img src={img} className='w-1021 h-376 ml-10' />
+      <img
+        src={img}
+        className='lg:w-1021 lg:h-376 lg:ml-10 m-0 w-full min-h-full object-contain'
+      />
     </h1>
   );
 };
