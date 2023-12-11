@@ -12,10 +12,10 @@ export const Content: FC<RegionContentInfo> = ({
   moneyContent,
 }) => {
   return (
-    <div className='pt-16 pr-20 pb-16 pl-20 border border-gray-500 border-solid border-1 relative text-center w-250 h-436 flex flex-col justify-around'>
+    <div className='pt-16 pr-20 pb-16 pl-20 border border-gray-300 border-solid border-gray-500 border-1 relative text-center w-250 h-436 flex flex-col justify-around'>
       <div>
         <FavoriteMark />
-        <img className='w-200 h-240' src={img} />
+        <img className='w-full h-240 object-contain' src={img} />
       </div>
       <ExplainContent title={title} content={content} />
       <div className='flex justify-between items-end'>
