@@ -1,11 +1,11 @@
 import { FC } from 'react';
 import { ExplainContentsBottomInfo } from '../../../lib/const/ExplainContentsBottomInfo';
-import { ExplainContent } from '../ExplainContent';
-import { Baloon } from '../Baloon';
+import { DescriptionProduct } from '../DescriptionProduct';
+import { Baloon } from '../../Commons/Baloon';
 type Props = {
   className?: string;
 };
-export const ExplainBottomContentsDetail: FC<Props> = ({ className }) => {
+export const DescriptionBottomProducts: FC<Props> = ({ className }) => {
   return (
     <div
       className={`flex lg:pt-50 pl-15 lg:flex-row lg:h-430 flex-col ${className}`}
@@ -17,7 +17,7 @@ export const ExplainBottomContentsDetail: FC<Props> = ({ className }) => {
         />
         <Baloon className='absolute lg:-top-full left-1/2 top-10 lg:order-2 order-1' />
       </div>
-      <ExplainContent
+      <DescriptionProduct
         title='毛孔護理套組'
         span=''
         content='MCO速淨卸粧油 60ml'

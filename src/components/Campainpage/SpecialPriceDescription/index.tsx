@@ -3,7 +3,7 @@ type Props = {
   message: string;
   className?: string;
 };
-export const MoneyContent: FC<Props> = ({ message, className }) => {
+export const SpecialPriceDescription: FC<Props> = ({ message, className }) => {
   return (
     <div className={`flex ${className}`}>
       <span className='text-50 font-thin text-black mr-20 mt-20'>\</span>

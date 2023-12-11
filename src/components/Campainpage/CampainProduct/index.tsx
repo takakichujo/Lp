@@ -1,7 +1,7 @@
 import { FC } from 'react';
 import { ContentInfo } from '../../../types';
-import { ContentCircle } from '../ContentCircle';
-export const Content: FC<ContentInfo> = ({
+import { ContentCircle } from '../../Commons/ContentCircle';
+export const CampainProduct: FC<ContentInfo> = ({
   circleTopName,
   circleSpanName,
   circleBottomName,

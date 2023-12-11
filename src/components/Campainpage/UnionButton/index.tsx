@@ -1,8 +1,8 @@
-import { MoneyContent } from '../MoneyContent';
-import { MoneyMessage } from '../MoneyMessage';
-import { Button } from '../Button';
+import { SpecialPriceDescription } from '../SpecialPriceDescription';
+import { NormalPriceDescription } from '../NormalPriceDescription';
+import { Button } from '../../Commons/Button';
 import { FC } from 'react';
-import { AddBuy } from '../AddBuy';
+import { SpPriceDescription } from '../SpPriceDescription';
 type Props = {
   className?: string;
   message: string;
@@ -13,10 +13,13 @@ export const UnionButton: FC<Props> = ({ className, message, content }) => {
     <div
       className={`flex lg:flex-row flex-col justify-center lg:items-end items-center ${className}`}
     >
-      <AddBuy content={content} />
-      <MoneyContent message={message} className='mb-10 lg:mb-0 lg:ml-0 ml-6' />
+      <SpPriceDescription content={content} />
+      <SpecialPriceDescription
+        message={message}
+        className='mb-10 lg:mb-0 lg:ml-0 ml-6'
+      />
       <div className='ml-20 relative'>
-        <MoneyMessage
+        <NormalPriceDescription
           className='absolute -top-10 lg:block hidden w-300'
           message={content}
         />

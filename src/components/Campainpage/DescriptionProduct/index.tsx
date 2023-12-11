@@ -8,7 +8,7 @@ type Props = {
   anotation: string;
   className?: string;
 };
-export const ExplainContent: FC<Props> = ({
+export const DescriptionProduct: FC<Props> = ({
   title,
   span,
   info,

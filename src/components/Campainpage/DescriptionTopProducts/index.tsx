@@ -1,14 +1,14 @@
 import { FC } from 'react';
 import { ExplainContentsTopInfo } from '../../../lib/const/ExplainContentsTopInfo';
-import { ExplainContent } from '../ExplainContent';
-import { Baloon } from '../Baloon';
+import { DescriptionProduct } from '../DescriptionProduct';
+import { Baloon } from '../../Commons/Baloon';
 type Props = {
   className?: string;
 };
-export const ExplainTopContentsDetail: FC<Props> = ({ className }) => {
+export const DescriptionTopProducts: FC<Props> = ({ className }) => {
   return (
     <div className={`flex lg:pt-50 pl-15 lg:flex-row flex-col ${className}`}>
-      <ExplainContent
+      <DescriptionProduct
         title='美白套組'
         span='※1'
         content='MCO速淨卸粧油 120ml'
