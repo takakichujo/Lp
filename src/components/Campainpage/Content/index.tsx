@@ -11,7 +11,7 @@ export const Content: FC<ContentInfo> = ({
 }) => {
   return (
     <div className='w-280 m-20 h-400'>
-      <div className='w-220  mt-40 mb-20 ml-20 mr-20 flex flex-col items-center bg-offwhite p-3 relative flex-shrink-0'>
+      <div className='w-220  mt-40 mb-20 ml-20 mr-20 h-380 flex flex-col items-center bg-offwhite p-3 relative flex-shrink-0'>
         <ContentCircle
           circleTopName={circleTopName}
           circleSpanName={circleSpanName}

@@ -8,9 +8,9 @@ type Props = {
 
 export const Contents: FC<Props> = ({ contentsInfoArray }) => {
   return (
-    <div className='bg-white ml-2 mr-2 mt-40'>
+    <div className='bg-white ml-2 mr-2 mt-40 h-540'>
       <h2 className='text-lg text-center font-bold pt-25'>使用步驟</h2>
-      <div className='flex overflow-scroll w-full group'>
+      <div className='flex overflow-x-scroll w-full'>
         {contentsInfoArray.map((contentInfoArray) => (
           <Content
             key={contentInfoArray.contentTitle}
