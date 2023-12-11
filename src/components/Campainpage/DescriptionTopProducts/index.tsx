@@ -10,7 +10,7 @@ export const DescriptionTopProducts: FC<Props> = ({ className }) => {
     <div className={`flex lg:pt-50 pl-15 lg:flex-row flex-col ${className}`}>
       <DescriptionProduct
         title='美白套組'
-        span='※1'
+        notice='※1'
         content='MCO速淨卸粧油 120ml'
         info={ExplainContentsTopInfo}
         anotation='※1 美白意指防止黑色素生成，預防色斑和雀斑。 
