@@ -2,7 +2,7 @@ import { ExplainTopContentsDetail } from '../ExplainTopContents';
 import { UnionButton } from '../UnionButton';
 import { Contents } from '../Contents';
 import { FC } from 'react';
-import { ContentInfoTop } from '../../lib/const/ContentsInfoTop';
+import { ContentInfoTop } from '../../../lib/const/ContentsInfoTop';
 export const Top: FC = () => {
   return (
     <div className='lg:w-986 lg:mt-50 mt-20 lg:mr-30 lg:ml-30 bg-bgBlue bg-cover bg-center pb-10 text-center lg:pt-10'>

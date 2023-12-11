@@ -8,7 +8,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        bgBlue: "url('../src/img/backgroundBlue.jpeg')",
+        bgBlue: "url('../src/img/CampainImg/backgroundBlue.jpeg')",
       },
       width: {
         60: '60px',
@@ -16,6 +16,7 @@ export default {
         150: '150px',
         250: '220px',
         280: '280px',
+        300: '300px',
         450: '450px',
         90: '90px',
         '90%': '90%',

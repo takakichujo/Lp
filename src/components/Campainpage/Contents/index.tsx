@@ -1,6 +1,6 @@
 import { Content } from '../Content';
 import { FC } from 'react';
-import { ContentInfo } from '../../types';
+import { ContentInfo } from '../../../types';
 
 type Props = {
   contentsInfoArray: ContentInfo[];

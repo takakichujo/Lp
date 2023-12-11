@@ -17,8 +17,8 @@ export const UnionButton: FC<Props> = ({ className, message, content }) => {
       <MoneyContent message={message} className='mb-10 lg:mb-0 lg:ml-0 ml-6' />
       <div className='ml-20 relative'>
         <MoneyMessage
-          className='absolute -top-10 lg:block hidden'
-          message='原價 11,088日圓(含稅)，現省1,008日圓'
+          className='absolute -top-10 lg:block hidden w-300'
+          message={content}
         />
         <Button />
       </div>

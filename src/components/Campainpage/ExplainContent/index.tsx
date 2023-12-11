@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import { ExplainContentInfo } from '../../types';
+import { ExplainContentInfo } from '../../../types';
 type Props = {
   title: string;
   span: string;

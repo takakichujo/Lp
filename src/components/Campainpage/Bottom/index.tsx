@@ -2,7 +2,7 @@ import { ExplainBottomContentsDetail } from '../ExplainBottomContents';
 import { UnionButton } from '../UnionButton';
 import { Contents } from '../Contents';
 import { FC } from 'react';
-import { ContentInfoBottom } from '../../lib/const/ContentsInfoBottom';
+import { ContentInfoBottom } from '../../../lib/const/ContentsInfoBottom';
 export const Bottom: FC = () => {
   return (
     <div className='lg:w-986 w-full lg:mt-50 mt-20 lg:mr-30 lg:ml-30 bg-bgBlue bg-cover bg-center pb-10 text-center lg:pt-10'>

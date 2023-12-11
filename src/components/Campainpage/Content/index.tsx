@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import { ContentInfo } from '../../types';
+import { ContentInfo } from '../../../types';
 import { ContentCircle } from '../ContentCircle';
 export const Content: FC<ContentInfo> = ({
   circleTopName,
