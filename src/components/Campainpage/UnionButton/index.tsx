@@ -1,26 +1,22 @@
-import { MoneyContent } from '../MoneyContent';
-import { MoneyMessage } from '../MoneyMessage';
-import { Button } from '../Button';
+import { SpecialPriceDescription } from '../SpecialPriceDescription';
+import { NormalPriceDescription } from '../NormalPriceDescription';
+import { Button } from '../../Commons/Button';
 import { FC } from 'react';
-import { AddBuy } from '../AddBuy';
+import { SpPriceDescription } from '../SpPriceDescription';
 type Props = {
-  className?: string;
   message: string;
   content: string;
 };
-export const UnionButton: FC<Props> = ({ className, message, content }) => {
+export const UnionButton: FC<Props> = ({ message, content }) => {
   return (
     <div
-      className={`flex lg:flex-row flex-col justify-center lg:items-end items-center ${className}`}
+      className={`flex lg:flex-row flex-col justify-center lg:items-end items-center text-center`}
     >
-      <AddBuy content={content} />
-      <MoneyContent message={message} className='mb-10 lg:mb-0 lg:ml-0 ml-6' />
+      <SpPriceDescription content={content} />
+      <SpecialPriceDescription message={message} />
       <div className='ml-20 relative'>
-        <MoneyMessage
-          className='absolute -top-10 lg:block hidden w-300'
-          message={content}
-        />
-        <Button />
+        <NormalPriceDescription message={content} />
+        <Button>立即加入購物車 </Button>
       </div>
     </div>
   );

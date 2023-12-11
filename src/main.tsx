@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import App from './App.tsx';
 import './index.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import { Campain } from './components/Campainpage/Campain/index.tsx';
+import { Campain } from './Pages/Campain/index.tsx';
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <BrowserRouter>

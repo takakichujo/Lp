@@ -2,15 +2,15 @@ import { FC } from 'react';
 import { ExplainContentInfo } from '../../../types';
 type Props = {
   title: string;
-  span: string;
+  notice?: string;
   info: ExplainContentInfo[];
   content: string;
-  anotation: string;
+  anotation?: string;
   className?: string;
 };
-export const ExplainContent: FC<Props> = ({
+export const DescriptionProduct: FC<Props> = ({
   title,
-  span,
+  notice,
   info,
   content,
   anotation,
@@ -22,7 +22,7 @@ export const ExplainContent: FC<Props> = ({
     >
       <h2 className='text-23 pb-6 text-blue-500'>
         {title}
-        <span className='text-18'>{span}</span>
+        {notice && <span className='text-18'>{notice}</span>}
       </h2>
 
       <ul>
@@ -35,7 +35,7 @@ export const ExplainContent: FC<Props> = ({
         })}
       </ul>
       <p className='text-red-500 text-10'>{`＜贈品＞${content}`}</p>
-      <p>{anotation}</p>
+      {anotation && <p>{anotation}</p>}
     </div>
   );
 };
