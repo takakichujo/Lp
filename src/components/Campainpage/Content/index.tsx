@@ -8,7 +8,7 @@ export const Content: FC<ContentInfo> = ({
   img,
   contentTitle,
   contentSentence,
-  className,
+  isRed = false,
 }) => {
   return (
     <div className='w-250 m-20 h-400'>
@@ -17,7 +17,7 @@ export const Content: FC<ContentInfo> = ({
           circleTopName={circleTopName}
           circleSpanName={circleSpanName}
           circleBottomName={circleBottomName}
-          className={className}
+          className={isRed ? 'bg-red-500' : 'bg-blue-500'}
         />
         <img src={img} className='w-90 h-230' />
         <p className='font-bold mt-20 text-center text-sm'>{contentTitle}</p>

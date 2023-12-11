@@ -20,7 +20,7 @@ export const UnionButton: FC<Props> = ({ className, message, content }) => {
           className='absolute -top-10 lg:block hidden w-300'
           message={content}
         />
-        <Button />
+        <Button>立即加入購物車 </Button>
       </div>
     </div>
   );

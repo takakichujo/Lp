@@ -12,7 +12,7 @@ export const Top: FC = () => {
         message='14,900'
         content='原價 16,390日圓(含稅)，現省1,490日圓'
       />
-      <Contents contentsInfoArray={ContentInfoTop} className='mt-40' />
+      <Contents contentsInfoArray={ContentInfoTop} />
     </div>
   );
 };

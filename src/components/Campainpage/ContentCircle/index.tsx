@@ -9,8 +9,10 @@ export const ContentCircle: FC<Props> = ({
   circleTopName,
   circleSpanName,
   circleBottomName,
-  className,
+  className = 'bg-blue-500',
 }) => {
+  console.log(className);
+
   return (
     <div
       className={`w-60 h-60 rounded-full absolute -top-10 -left-10 ${className}`}
