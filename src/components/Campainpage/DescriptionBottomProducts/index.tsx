@@ -21,7 +21,6 @@ export const DescriptionBottomProducts: FC<Props> = ({ className }) => {
         title='毛孔護理套組'
         content='MCO速淨卸粧油 60ml'
         info={ExplainContentsBottomInfo}
-        anotation=''
         className='h-300'
       />
     </div>

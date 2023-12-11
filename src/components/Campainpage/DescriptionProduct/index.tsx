@@ -5,7 +5,7 @@ type Props = {
   notice?: string;
   info: ExplainContentInfo[];
   content: string;
-  anotation: string;
+  anotation?: string;
   className?: string;
 };
 export const DescriptionProduct: FC<Props> = ({
@@ -35,7 +35,7 @@ export const DescriptionProduct: FC<Props> = ({
         })}
       </ul>
       <p className='text-red-500 text-10'>{`＜贈品＞${content}`}</p>
-      <p>{anotation}</p>
+      {anotation && <p>{anotation}</p>}
     </div>
   );
 };
