@@ -1,4 +1,4 @@
-import { ExplainTopContentsDetail } from '../ExplainTopContents';
+import { ExplainTopContentsDetail } from '../ExplainTopContentsDetail';
 import { UnionButton } from '../UnionButton';
 import { Contents } from '../Contents';
 import { FC } from 'react';
