@@ -5,7 +5,6 @@ export type ContentInfo = {
   img: string;
   contentTitle: string;
   contentSentence: string;
-  isRed: boolean;
 };
 
 export type ExplainContentInfo = {

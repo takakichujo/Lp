@@ -10,7 +10,7 @@ export const Contents: FC<Props> = ({ contentsInfoArray }) => {
   return (
     <div className='bg-white ml-2 mr-2 mt-40'>
       <h2 className='text-lg text-center font-bold pt-25'>使用步驟</h2>
-      <div className='flex overflow-scroll w-full'>
+      <div className='flex overflow-scroll w-full group'>
         {contentsInfoArray.map((contentInfoArray) => (
           <Content
             key={contentInfoArray.contentTitle}
@@ -20,7 +20,6 @@ export const Contents: FC<Props> = ({ contentsInfoArray }) => {
             img={contentInfoArray.img}
             contentTitle={contentInfoArray.contentTitle}
             contentSentence={contentInfoArray.contentSentence}
-            isRed={contentInfoArray.isRed}
           />
         ))}
       </div>
