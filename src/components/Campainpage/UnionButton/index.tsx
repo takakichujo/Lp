@@ -4,14 +4,13 @@ import { Button } from '../../Commons/Button';
 import { FC } from 'react';
 import { SpPriceDescription } from '../SpPriceDescription';
 type Props = {
-  className?: string;
   message: string;
   content: string;
 };
-export const UnionButton: FC<Props> = ({ className, message, content }) => {
+export const UnionButton: FC<Props> = ({ message, content }) => {
   return (
     <div
-      className={`flex lg:flex-row flex-col justify-center lg:items-end items-center ${className}`}
+      className={`flex lg:flex-row flex-col justify-center lg:items-end items-center text-center`}
     >
       <SpPriceDescription content={content} />
       <SpecialPriceDescription
