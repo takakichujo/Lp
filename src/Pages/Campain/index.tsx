@@ -5,7 +5,7 @@ import { CampainBottom } from '../../components/Campainpage/CampainBottom';
 export const Campain: FC = () => {
   return (
     <div className='lg:mx-auto lg:w-1140 w-full'>
-      <CampainTopImage img='../src/img/CampainImg/fancl_top.webp' />
+      <CampainTopImage />
       <CampainTop />
       <CampainBottom />
     </div>
