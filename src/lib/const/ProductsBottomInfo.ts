@@ -1,4 +1,4 @@
-export const ContentInfoBottom = [
+export const ProductsBottomInfo = [
   {
     circleTopName: 'STEP',
     circleSpanName: '01',

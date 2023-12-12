@@ -1,4 +1,4 @@
-export const ExplainContentsTopInfo = [
+export const DescriptionProductsTopInfo = [
   {
     content: 'MCO速淨卸粧油 BLACK＆SMOOTH 120ml',
   },
