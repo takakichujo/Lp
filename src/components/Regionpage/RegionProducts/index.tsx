@@ -6,7 +6,7 @@ type Props = {
 };
 export const RegionProducts: FC<Props> = ({ array }) => {
   return (
-    <div className='grid grid-cols-4 place-items-center w-80% mx-auto gap-4'>
+    <div className='grid grid-cols-4 place-items-center w-full mx-auto gap-4'>
       {array.map((item) => (
         <RegionProduct
           content={item.content}

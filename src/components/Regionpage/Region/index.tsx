@@ -9,7 +9,7 @@ export const Region: FC<RegionInfo> = ({
   RegionProductsArray,
 }) => {
   return (
-    <div className='w-80%'>
+    <div className='w-80% mx-auto'>
       <RegionTop
         RegionTopImgImg={RegionTopImgImg}
         RegionTopImgTitle={RegionTopImgTitle}
