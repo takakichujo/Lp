@@ -104,6 +104,7 @@ export const RegionHokkaidoTohokuInfo = [
     content: '青森紅玉蘋果起司蛋糕 3個裝（青森）',
     moneyTitle: 'NT$145.3',
     moneyContent: 'JPY670',
+    isCart: false,
   },
   {
     img: '../../src/img/Region/HokkaidoTohoku/eat/16.jpeg',
