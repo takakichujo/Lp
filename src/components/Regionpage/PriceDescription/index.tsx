@@ -3,7 +3,7 @@ type Props = {
   title: string;
   content: string;
 };
-export const ExplainContent: FC<Props> = ({ title, content }) => {
+export const PriceDescription: FC<Props> = ({ title, content }) => {
   return (
     <div>
       <h2 className='text-left text-18 text-gray-500'>{title}</h2>

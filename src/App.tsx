@@ -1,5 +1,7 @@
 import './index.css';
 import { useNavigate } from 'react-router-dom';
+import { RegionProducts } from './components/Regionpage/RegionProducts';
+import { RegionHokkaidoTohokuInfo } from './lib/const/RegionHokkaidoTohokuInfo';
 function App() {
   const navigate = useNavigate();
   const handleCampain = () => {
@@ -11,6 +13,7 @@ function App() {
       <p className='text-18' onClick={handleCampain}>
         キャンペーンページへ
       </p>
+      <RegionProducts array={RegionHokkaidoTohokuInfo} />
     </div>
   );
 }

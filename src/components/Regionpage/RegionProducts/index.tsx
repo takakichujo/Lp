@@ -1,14 +1,14 @@
 import { FC } from 'react';
 import { RegionContentInfo } from '../../../types';
-import { Content } from '../Content';
+import { RegionProduct } from '../RegionProduct';
 type Props = {
   array: RegionContentInfo[];
 };
-export const Contents: FC<Props> = ({ array }) => {
+export const RegionProducts: FC<Props> = ({ array }) => {
   return (
-    <div className='grid grid-cols-4 place-items-center gap-x-0 gap-y-4 w-80% mx-auto'>
+    <div className='grid grid-cols-4 place-items-center w-80% mx-auto gap-4'>
       {array.map((item) => (
-        <Content
+        <RegionProduct
           content={item.content}
           img={item.img}
           title={item.title}
