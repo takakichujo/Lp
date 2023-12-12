@@ -18,3 +18,10 @@ export type RegionContentInfo = {
   moneyTitle: string;
   moneyContent: string;
 };
+
+export type RegionInfo = {
+  RegionTopImgImg: string;
+  RegionTopImgTitle: string;
+  DescriptionRegionContent: string;
+  RegionProductsArray: RegionContentInfo[];
+};
