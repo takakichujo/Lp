@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import { ExplainContentsTopInfo } from '../../../lib/const/ExplainContentsTopInfo';
+import { DescriptionProductsTopInfo } from '../../../lib/const/DescriptionProductsTopInfo';
 import { DescriptionProduct } from '../DescriptionProduct';
 import { Baloon } from '../../Commons/Baloon';
 type Props = {
@@ -12,7 +12,7 @@ export const DescriptionTopProducts: FC<Props> = ({ className }) => {
         title='美白套組'
         notice='※1'
         content='MCO速淨卸粧油 120ml'
-        info={ExplainContentsTopInfo}
+        info={DescriptionProductsTopInfo}
         anotation='※1 美白意指防止黑色素生成，預防色斑和雀斑。 
           （MCO速淨卸粧油、毛孔淨化潔膚泥膠、長效清透防曬露50+ (SPF50 PA++++) 除外）'
         className='order-2 lg:order-1'

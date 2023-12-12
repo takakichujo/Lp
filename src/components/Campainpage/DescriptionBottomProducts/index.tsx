@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import { ExplainContentsBottomInfo } from '../../../lib/const/ExplainContentsBottomInfo';
+import { DescriptionProductsBottomInfo } from '../../../lib/const/DescriptionProductsBottomInfo';
 import { DescriptionProduct } from '../DescriptionProduct';
 import { Baloon } from '../../Commons/Baloon';
 type Props = {
@@ -20,7 +20,7 @@ export const DescriptionBottomProducts: FC<Props> = ({ className }) => {
       <DescriptionProduct
         title='毛孔護理套組'
         content='MCO速淨卸粧油 60ml'
-        info={ExplainContentsBottomInfo}
+        info={DescriptionProductsBottomInfo}
         className='h-300'
       />
     </div>

@@ -1,4 +1,4 @@
-export const ExplainContentsBottomInfo = [
+export const DescriptionProductsBottomInfo = [
   {
     content: '黑炭酵素深層清潔洗顏粉 30個',
   },

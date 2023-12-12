@@ -1,4 +1,4 @@
-export const ContentInfoTop = [
+export const ProductsTopInfo = [
   {
     circleTopName: 'STEP',
     circleSpanName: '01',
