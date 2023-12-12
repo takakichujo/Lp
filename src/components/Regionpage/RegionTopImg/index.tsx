@@ -3,7 +3,7 @@ type Props = {
   img: string;
   title: string;
 };
-export const ContentTopImg: FC<Props> = ({ img, title }) => {
+export const RegionTopImg: FC<Props> = ({ img, title }) => {
   return (
     <div className='relative'>
       <img className=' h-146 mx-auto w-full' src={img} />

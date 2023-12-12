@@ -2,8 +2,8 @@ import { FC } from 'react';
 import { RegionContentInfo } from '../../../types';
 import { CartButton } from '../../Commons/CartButton';
 import { FavoriteMark } from '../FavoriteMark';
-import { PriceDescription } from '../PriceDescription';
-import { MoneyContent } from '../MoneyContent';
+import { DescriptionProduct } from '../DescriptionProduct';
+import { PriceProduct } from '../PriceProduct';
 export const RegionProduct: FC<RegionContentInfo> = ({
   img,
   title,
@@ -17,9 +17,9 @@ export const RegionProduct: FC<RegionContentInfo> = ({
         <FavoriteMark />
         <img className='w-full h-240 object-contain' src={img} />
       </div>
-      <PriceDescription title={title} content={content} />
+      <DescriptionProduct title={title} content={content} />
       <div className='flex justify-between items-end'>
-        <MoneyContent moneyTitle={moneyTitle} moneyContent={moneyContent} />
+        <PriceProduct moneyTitle={moneyTitle} moneyContent={moneyContent} />
         <CartButton />
       </div>
     </div>
