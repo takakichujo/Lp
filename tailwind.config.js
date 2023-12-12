@@ -9,12 +9,14 @@ export default {
     extend: {
       backgroundImage: {
         bgBlue: "url('../src/img/CampainImg/backgroundBlue.jpeg')",
+        bgRegion: "url('../../src/img/Region/RegionTop.webp')",
       },
       width: {
         20: '20px',
         36: '36px',
         60: '60px',
         220: '220px',
+        122: '122px',
         150: '150px',
         240: '240px',
         200: '200px',
@@ -36,6 +38,7 @@ export default {
       },
       height: {
         19: '19px',
+        23: '23px',
         32: '32px',
         36: '36px',
         40: '40px',
