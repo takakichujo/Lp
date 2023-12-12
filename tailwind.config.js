@@ -98,6 +98,10 @@ export default {
         25: '25px',
         50: '50px',
       },
+      flexGrow: {
+        2: '2',
+        1: '1',
+      },
     },
   },
   plugins: [],

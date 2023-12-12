@@ -10,7 +10,7 @@ export const UnionSimpleImgTitle: FC<Props> = ({
   simpleRegionTitleContent,
 }) => {
   return (
-    <div className='relative'>
+    <div className='relative w-full'>
       <SimpleRegionImg img={simpleRegionImg} />
       <SimpleRegionTitle title={simpleRegionTitleContent} />
     </div>

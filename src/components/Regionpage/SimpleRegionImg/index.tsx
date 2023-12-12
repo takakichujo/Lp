@@ -3,5 +3,5 @@ type Props = {
   img: string;
 };
 export const SimpleRegionImg: FC<Props> = ({ img }) => {
-  return <img className='w-full h-full object-contain' src={img} />;
+  return <img className='w-full h-full object-cover' src={img} />;
 };

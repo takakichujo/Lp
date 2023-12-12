@@ -9,6 +9,7 @@ export const RegionProducts: FC<Props> = ({ array }) => {
     <div className='grid grid-cols-4 place-items-center w-full mx-auto gap-4'>
       {array.map((item) => (
         <RegionProduct
+          key={item.img}
           content={item.content}
           img={item.img}
           title={item.title}
