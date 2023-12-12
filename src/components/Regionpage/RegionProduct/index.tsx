@@ -4,12 +4,14 @@ import { CartButton } from '../../Commons/CartButton';
 import { FavoriteMark } from '../FavoriteMark';
 import { DescriptionProduct } from '../DescriptionProduct';
 import { PriceProduct } from '../PriceProduct';
+import { Bell } from '../../Commons/Bell';
 export const RegionProduct: FC<RegionContentInfo> = ({
   img,
   title,
   content,
   moneyTitle,
   moneyContent,
+  isCart = true,
 }) => {
   return (
     <div className='pt-16 pr-20 pb-16 pl-20 border border-gray-300 border-solid border-gray-200 border-1 relative text-center w-full h-436 flex flex-col justify-around'>
@@ -20,7 +22,7 @@ export const RegionProduct: FC<RegionContentInfo> = ({
       <DescriptionProduct title={title} content={content} />
       <div className='flex justify-between items-end'>
         <PriceProduct moneyTitle={moneyTitle} moneyContent={moneyContent} />
-        <CartButton />
+        {isCart ? <CartButton /> : <Bell />}
       </div>
     </div>
   );

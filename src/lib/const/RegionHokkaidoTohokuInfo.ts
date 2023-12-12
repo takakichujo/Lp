@@ -47,6 +47,7 @@ export const RegionHokkaidoTohokuInfo = [
     content: '東北限定 龜田烤魷魚醬油美乃滋風味 柿種米果',
     moneyTitle: 'NT$117.1',
     moneyContent: 'JPY540',
+    isCart: false,
   },
   {
     img: '../../src/img/Region/HokkaidoTohoku/eat/8.jpeg',

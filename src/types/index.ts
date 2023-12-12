@@ -17,6 +17,7 @@ export type RegionContentInfo = {
   content: string;
   moneyTitle: string;
   moneyContent: string;
+  isCart?: boolean;
 };
 
 export type RegionInfo = {

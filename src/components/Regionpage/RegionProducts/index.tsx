@@ -14,6 +14,7 @@ export const RegionProducts: FC<Props> = ({ array }) => {
           title={item.title}
           moneyTitle={item.moneyTitle}
           moneyContent={item.moneyContent}
+          isCart={item.isCart}
         />
       ))}
     </div>
