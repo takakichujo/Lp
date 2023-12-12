@@ -26,3 +26,9 @@ export type RegionInfo = {
   DescriptionRegionContent: string;
   RegionProductsArray: RegionContentInfo[];
 };
+export type SimpleProductInfo = {
+  img: string;
+};
+export type SimpleProductsInfo = {
+  images: SimpleProductInfo[];
+};
