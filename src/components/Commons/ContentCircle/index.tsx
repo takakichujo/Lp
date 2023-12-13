@@ -11,8 +11,6 @@ export const ContentCircle: FC<Props> = ({
   circleBottomName,
   bg,
 }) => {
-  console.log(bg);
-
   return (
     <div
       className={`w-60 h-60 rounded-full absolute -top-10 -left-10 bg-${bg}-500`}
