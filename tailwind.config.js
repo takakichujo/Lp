@@ -9,7 +9,6 @@ export default {
     extend: {
       backgroundImage: {
         bgBlue: "url('../src/img/CampainImg/backgroundBlue.jpeg')",
-        bgRegion: "url('../../src/img/Region/RegionTop.webp')",
       },
       width: {
         20: '20px',

@@ -13,7 +13,7 @@ export const SimpleRegion: FC<Props> = ({
   simpleProductsImages,
 }) => {
   return (
-    <div className='w-[532px] h-[96px] flex mb-[10px] bg-deepPink'>
+    <div className='w-[460px] h-[85px] flex mb-[10px] bg-deepPink'>
       <UnionSimpleImgTitle
         simpleRegionImg={simpleRegionImg}
         simpleRegionTitleContent={simpleRegionTitleContent}
