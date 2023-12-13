@@ -5,14 +5,16 @@ type Props = {
   RegionTopImgImg: string;
   RegionTopImgTitle: string;
   DescriptionRegionContent: string;
+  id: string;
 };
 export const RegionTop: FC<Props> = ({
   RegionTopImgImg,
   RegionTopImgTitle,
   DescriptionRegionContent,
+  id,
 }) => {
   return (
-    <div>
+    <div id={id}>
       <RegionTopImg img={RegionTopImgImg} title={RegionTopImgTitle} />
       <DescriptionRegion content={DescriptionRegionContent} />
     </div>

@@ -25,6 +25,7 @@ export type RegionInfo = {
   RegionTopImgTitle: string;
   DescriptionRegionContent: string;
   RegionProductsArray: RegionContentInfo[];
+  id: string;
 };
 export type SimpleProductInfo = {
   img: string;

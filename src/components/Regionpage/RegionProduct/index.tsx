@@ -1,7 +1,7 @@
 import { FC } from 'react';
 import { RegionContentInfo } from '../../../types';
 import { CartButton } from '../../Commons/CartButton';
-import { FavoriteMark } from '../FavoriteMark';
+import { FavoriteMark } from '../../Commons/FavoriteMark';
 import { DescriptionProduct } from '../DescriptionProduct';
 import { PriceProduct } from '../PriceProduct';
 import { Bell } from '../../Commons/Bell';

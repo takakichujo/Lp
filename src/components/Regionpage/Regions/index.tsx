@@ -7,6 +7,7 @@ export const Regions: FC = () => {
     <div>
       {RegionsInfo.map((item) => (
         <Region
+          id={item.id}
           key={item.DescriptionRegionContent}
           RegionTopImgImg={item.RegionTopImgImg}
           RegionTopImgTitle={item.RegionTOpImgTitle}

@@ -6,14 +6,16 @@ type Props = {
   simpleRegionImg: string;
   simpleRegionTitleContent: string;
   simpleProductsImages: SimpleProductInfo[];
+  id: string;
 };
 export const SimpleRegion: FC<Props> = ({
   simpleRegionImg,
   simpleRegionTitleContent,
   simpleProductsImages,
+  id,
 }) => {
   return (
-    <div className='w-[460px] h-[85px] flex mb-[10px] bg-deepPink'>
+    <div className='w-full h-[90px] flex mb-[10px] bg-deepPink' id={id}>
       <UnionSimpleImgTitle
         simpleRegionImg={simpleRegionImg}
         simpleRegionTitleContent={simpleRegionTitleContent}
