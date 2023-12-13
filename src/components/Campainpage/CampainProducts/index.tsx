@@ -1,9 +1,9 @@
 import { CampainProduct } from '../CampainProduct';
 import { FC } from 'react';
-import { ContentInfo } from '../../../types';
+import { ContentInfoArray } from '../../../types';
 
 type Props = {
-  contentsInfoArray: ContentInfo[];
+  contentsInfoArray: ContentInfoArray[];
 };
 
 export const CampainProducts: FC<Props> = ({ contentsInfoArray }) => {

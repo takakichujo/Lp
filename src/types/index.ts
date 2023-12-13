@@ -8,6 +8,14 @@ export type ContentInfo = {
   circleBg: 'blue' | 'red';
 };
 
+export type ContentInfoArray = {
+  circleTopName: string;
+  circleSpanName: string;
+  circleBottomName: string;
+  img: string;
+  contentTitle: string;
+  contentSentence: string;
+};
 export type ExplainContentInfo = {
   content: string;
 };
