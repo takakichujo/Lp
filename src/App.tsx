@@ -1,10 +1,12 @@
 import './index.css';
 import { useNavigate } from 'react-router-dom';
-import { Regionpage } from './Pages/RegionPage';
 function App() {
   const navigate = useNavigate();
   const handleCampain = () => {
     navigate('/Campain');
+  };
+  const handleRegion = () => {
+    navigate('./Region');
   };
   return (
     <div className='text-center'>
@@ -12,7 +14,9 @@ function App() {
       <p className='text-18' onClick={handleCampain}>
         キャンペーンページへ
       </p>
-      <Regionpage />
+      <p className='text-18' onClick={handleRegion}>
+        Regionページへ
+      </p>
     </div>
   );
 }
