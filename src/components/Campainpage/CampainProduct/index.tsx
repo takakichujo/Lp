@@ -8,6 +8,7 @@ export const CampainProduct: FC<ContentInfo> = ({
   img,
   contentTitle,
   contentSentence,
+  circleBg,
 }) => {
   return (
     <div className='w-280 m-20 h-400'>
@@ -16,6 +17,7 @@ export const CampainProduct: FC<ContentInfo> = ({
           circleTopName={circleTopName}
           circleSpanName={circleSpanName}
           circleBottomName={circleBottomName}
+          bg={circleBg}
         />
         <img src={img} className='w-90 h-230 object-cover' />
         <p className='font-bold mt-20 text-center text-sm'>{contentTitle}</p>

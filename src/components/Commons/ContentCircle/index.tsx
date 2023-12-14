@@ -3,14 +3,18 @@ type Props = {
   circleTopName: string;
   circleSpanName: string;
   circleBottomName: string;
+  bg: 'blue' | 'red';
 };
 export const ContentCircle: FC<Props> = ({
   circleTopName,
   circleSpanName,
   circleBottomName,
+  bg,
 }) => {
   return (
-    <div className='w-60 h-60 rounded-full absolute -top-10 -left-10 bg-blue-500 last:bg-red-500'>
+    <div
+      className={`w-60 h-60 rounded-full absolute -top-10 -left-10 bg-${bg}-500`}
+    >
       <p className='text-white text-xs pt-2 text-center'>
         {circleTopName}
         <span className='text-sm'>{circleSpanName}</span>
