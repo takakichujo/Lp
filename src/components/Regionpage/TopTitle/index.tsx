@@ -10,7 +10,7 @@ export const TopTitle: FC = () => {
             src='../../src/img/Region/RegionTop.webp'
           />
           <img
-            className='w-full  object-contain mr-[20px] h-full lg:hidden block mb-[20px]'
+            className='w-full  object-contain mr-[20px] h-auto lg:hidden block mb-[20px]'
             src='../../src/img/Region/RegionTop-sm.webp'
           />
           <SimpleRegions />
