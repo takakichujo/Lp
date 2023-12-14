@@ -4,10 +4,14 @@ export const TopTitle: FC = () => {
   return (
     <div className='w-full mx-auto'>
       <h1 className='bg-bgRegion  mx-auto p-[10px] bg-pink-200'>
-        <div className='flex'>
+        <div className='flex lg:flex-row flex-col'>
           <img
-            className='w-1/2 object-contain mr-[20px] h-[500px]'
+            className='w-1/2  object-contain mr-[20px] h-[500px] lg:block hidden'
             src='../../src/img/Region/RegionTop.webp'
+          />
+          <img
+            className='w-full  object-contain mr-[20px] h-full lg:hidden block mb-[20px]'
+            src='../../src/img/Region/RegionTop-sm.webp'
           />
           <SimpleRegions />
         </div>

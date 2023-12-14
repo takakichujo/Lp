@@ -2,6 +2,7 @@ import { RegionTop } from '../RegionTop';
 import { RegionProducts } from '../RegionProducts';
 import { FC } from 'react';
 import { RegionInfo } from '../../../types';
+import { ReadMore } from '../../Commons/ReadMore';
 export const Region: FC<RegionInfo> = ({
   RegionTopImgImg,
   RegionTopImgTitle,
@@ -18,6 +19,7 @@ export const Region: FC<RegionInfo> = ({
         DescriptionRegionContent={DescriptionRegionContent}
       />
       <RegionProducts array={RegionProductsArray} />
+      <ReadMore />
     </div>
   );
 };

@@ -15,7 +15,7 @@ export const SimpleRegion: FC<Props> = ({
   id,
 }) => {
   return (
-    <div className='w-full h-[90px] flex mb-[10px] bg-deepPink' id={id}>
+    <div className='w-full h-[90px] flex mb-[10px]' id={id}>
       <UnionSimpleImgTitle
         simpleRegionImg={simpleRegionImg}
         simpleRegionTitleContent={simpleRegionTitleContent}
