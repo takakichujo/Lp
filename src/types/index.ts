@@ -5,7 +5,6 @@ export type ContentInfo = {
   img: string;
   contentTitle: string;
   contentSentence: string;
-  circleBg: 'blue' | 'red';
 };
 
 export type ContentInfoArray = {

@@ -1,9 +1,9 @@
 import { CampainProduct } from '../CampainProduct';
 import { FC } from 'react';
-import { ContentInfoArray } from '../../../types';
+import { ContentInfo } from '../../../types';
 
 type Props = {
-  contentsInfoArray: ContentInfoArray[];
+  contentsInfoArray: ContentInfo[];
 };
 
 export const CampainProducts: FC<Props> = ({ contentsInfoArray }) => {
@@ -20,9 +20,6 @@ export const CampainProducts: FC<Props> = ({ contentsInfoArray }) => {
             img={contentInfoArray.img}
             contentTitle={contentInfoArray.contentTitle}
             contentSentence={contentInfoArray.contentSentence}
-            circleBg={
-              contentInfoArray.circleTopName === '贈品' ? 'red' : 'blue'
-            }
           />
         ))}
       </div>
