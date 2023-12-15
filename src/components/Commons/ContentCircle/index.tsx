@@ -3,17 +3,17 @@ type Props = {
   circleTopName: string;
   circleSpanName: string;
   circleBottomName: string;
-  bg: 'blue' | 'red';
 };
 export const ContentCircle: FC<Props> = ({
   circleTopName,
   circleSpanName,
   circleBottomName,
-  bg,
 }) => {
+  const bgColor = circleTopName === "贈品" ? "red" : "blue"
+  
   return (
     <div
-      className={`w-60 h-60 rounded-full absolute -top-10 -left-10 bg-${bg}-500`}
+      className={`w-60 h-60 rounded-full absolute -top-10 -left-10 bg-${bgColor}-500`}
     >
       <p className='text-white text-xs pt-2 text-center'>
         {circleTopName}
